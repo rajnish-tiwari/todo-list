@@ -15,7 +15,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { ReactiveFormsModule } from '@angular/forms';
 import {DragDropModule} from '@angular/cdk/drag-drop'; 
 import {MatTabsModule} from '@angular/material/tabs';
-import { TestComponent } from './test/test.component';
+ 
 
 
 @NgModule({
@@ -23,7 +23,7 @@ import { TestComponent } from './test/test.component';
     AppComponent,
     NavbarComponent,
     TodoComponent,
-    TestComponent
+ 
   ],
   imports: [
     BrowserModule,
